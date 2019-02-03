@@ -14,4 +14,8 @@ public class AppTest {
         MartaScheduler.App classUnderTest = new MartaScheduler.App();
         assertNotNull("app should have a greeting", classUnderTest.getGreeting());
     }
+
+    public String jadenFy(String input){
+        Character.toUpperCase(input.charAt(0));
+    }
 }
